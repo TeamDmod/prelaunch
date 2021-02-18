@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #061021;
+    @apply text-white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollRemove::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    @apply w-10/12 mx-auto;
+}
+
+.header-text {
+    position: absolute;
+    width: 606px;
+    height: 134px;
+    left: 380px;
+    top: 412px;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+}
