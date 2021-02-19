@@ -59,7 +59,6 @@
           <img src="~/assets/img/users.svg" alt="" class="lg:h-80" />
         </div>
       </div>
-
       <div
         class="lg:flex lg:flex-row lg:flex-no-wrap lg:mt-20 md:items-center md:flex-row md:flex"
       >
@@ -74,6 +73,30 @@
               Create and Customize your profile, get your own Vanity URL, fill
               in past experience and all sorts of info, and inquire for
               positions.
+            </p>
+          </div>
+        </div>
+        <div
+          class="mt-6 mr-8 hidden sm:block md:block lg:block xl:block 2xl:block"
+        >
+          <img src="~/assets/img/mod.svg" alt="" class="lg:h-80" />
+        </div>
+      </div>
+      <div
+        class="lg:flex lg:flex-row lg:flex-no-wrap lg:mt-20 md:items-center md:flex-row md:flex"
+      >
+        <div
+          class="w-full lg:w-8/12 lg:mr-16 flex flex-wrap lg:flex-nowrap justify-between items-start lg:mb-5"
+        >
+          <div class="p-8 lg:w-10/12 mr-auto lg:mt-40">
+            <h1 class="text-4xl font-semibold text-left">
+              Are you a Server Owner? Dmod is for you too.
+            </h1>
+            <p class="text-2xl font-light mt-2 text-left">
+              Server Owners have been wasting time using random tools for way
+              too long. Here, you can create forms, share them with a Vanity
+              URL, and collect responses, write mod reviews, all made to help
+              Server Owners.
             </p>
           </div>
         </div>
