@@ -1,9 +1,9 @@
 <template>
   <div class="py-8 lg:py-0 flex items-center">
     <div class="container flex flex-wrap items-center lg:flex-nowrap">
-      <nuxt-link :to="{ name: '/' }" class="mr-10 flex-shrink-0">
+      <div class="mr-10 flex-shrink-0">
         <img src="~/assets/img/logo.png" class="h-12" />
-      </nuxt-link>
+      </div>
 
       <a class="lg:hidden ml-auto" href="#" @click.prevent="smallMD = !smallMD">
         menu
@@ -18,40 +18,19 @@
           :class="{ 'text-center inline-block': smallMD }"
         >
           <div class="inline-block w-auto mr-auto items-center">
-            <nuxt-link
-              to="/"
-              class="text-lg mx-2 lg:px-3"
-              :class="{ 'inline-block': smallMD }"
+            <a href="https://twitter.com/dmodgg/" class="text-lg mx-2 lg:px-3"
+              >Twitter</a
             >
-              Twitter
-            </nuxt-link>
           </div>
           <div class="inline-block w-auto mr-auto items-center">
-            <nuxt-link
-              to="/"
-              class="text-lg mx-2 lg:px-3"
-              :class="{ 'inline-grid': smallMD }"
+            <a href="https://dev.dmod.gg/imgur" class="text-lg mx-2 lg:px-3"
+              >Leaks</a
             >
-              About
-            </nuxt-link>
           </div>
           <div class="inline-block w-auto mr-auto items-center">
-            <nuxt-link
-              to="/"
-              class="text-lg mx-2 lg:px-3"
-              :class="{ 'inline-block': smallMD }"
+            <a href="https://dmod.gg/discord" class="text-lg mx-2 lg:px-3"
+              >Discord</a
             >
-              Leaks
-            </nuxt-link>
-          </div>
-          <div class="inline-block mr-auto items-center">
-            <nuxt-link
-              to="/"
-              :class="{ 'inline-block': smallMD }"
-              class="text-lg mx-2 lg:px-3"
-            >
-              Discord
-            </nuxt-link>
           </div>
         </div>
       </div>
