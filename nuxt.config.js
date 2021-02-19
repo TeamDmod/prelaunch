@@ -1,8 +1,8 @@
 export default {
-    // server: {
-    //     host: '0.0.0.0',
-    //     port: 7788,
-    // },
+    server: {
+        host: '0.0.0.0',
+        port: 7788,
+    },
     head: {
         title: "dmod.gg",
         htmlAttrs: {
