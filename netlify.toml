@@ -1,0 +1,29 @@
+[[redirects]]
+  from = "https://dreamy-jackson-806a4b.netlify.app/*"
+  to = "https://dmod.gg/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dmod.gg/discord"
+  to = "https://discord.gg/RZC45MKf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dmod.gg/leaks"
+  to = "https://dev.dmod.gg/imgur"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dmod.gg/blog"
+  to = "https://link.medium.com/VVX3qlXZ0db"
+
+[[redirects]]
+  from = "https://dmod.gg/about"
+  to = "https://link.medium.com/VVX3qlXZ0db"
+
+[build]
+  command = "nuxt generate"
+  publish = "dist/"
