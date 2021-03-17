@@ -15,6 +15,7 @@ export default {
             { property: 'og:title', content: 'dmod.gg', vmid: 'og:title' },
             { property: 'og:description', content: 'Finding moderators or a server to work for has never been quicker! Create or apply for Applications. Even search by Rating, Time Zone, and more.', vmid: 'og:description' },
             { property: 'og:image', content: "/logo.png" || '' },
+            { name: 'theme-color', content: '#061021' }
         ],
         link: [{ rel: "icon", type: "image/x-icon", href: "/logo.png" }]
     },
