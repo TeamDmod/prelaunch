@@ -5,12 +5,6 @@
   force = true
 
 [[redirects]]
-  from = "/discord"
-  to = "https://discord.gg/VUTu3HyRpN"
-  status = 301
-  force = true
-  
-[[redirects]]
   from = "https://dmod.gg/github"
   to = "https://github.com/dmod-gg"
   status = 301
