@@ -28,7 +28,7 @@
             >
           </div>
           <div class="inline-block w-auto mr-auto items-center">
-            <a href="https://dmod.gg/discord" class="text-lg mx-2 lg:px-3"
+            <a href="https://discord.gg/VUTu3HyRpN" class="text-lg mx-2 lg:px-3"
               >Discord</a
             >
           </div>
