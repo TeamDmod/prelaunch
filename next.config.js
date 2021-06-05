@@ -6,11 +6,11 @@ module.exports = {
 				destination: 'https://twitter.com/dmodgg',
 				permanent: true,
 			},
-			// {
-			// 	source: '/leaks',
-			// 	destination: '/* Unknown */',
-			// 	permanent: true,
-			// },
+			{
+			 	source: '/leaks',
+			 	destination: 'https://discord.gg/wZyUW67Ggg',
+			 	permanent: true,
+			},
 			{
 				source: '/discord',
 				destination: 'https://discord.com/invite/429zwpugYf',
