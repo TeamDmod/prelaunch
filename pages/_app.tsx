@@ -1,6 +1,6 @@
 import '../styles/globals.scss';
-import Navbar from '@components/Navbar';
-import Metatags from '@components/MetaTags';
+import Navbar from 'components/Navbar';
+import Metatags from 'components/MetaTags';
 import type { AppProps } from 'next/app';
 
 function App({ Component, pageProps }: AppProps) {

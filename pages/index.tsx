@@ -1,4 +1,4 @@
-import Footer from '@components/Footer';
+import Footer from 'components/Footer';
 
 export default function Home() {
 	return (
@@ -11,59 +11,60 @@ export default function Home() {
 						Owners and Moderators alike.
 					</p>
 				</div>
-				<div className='right'>
-					<div>
-						<h2>Goodbye Google Forms.</h2>
-						<p>
-							With Dmod, finding moderators or a server to work for has never
-							been quicker! Create or apply for Applications. Even search by
-							Rating, Time Zone, and more.
-						</p>
+				<div id='about'>
+					<div className='right'>
+						<div>
+							<h2>Goodbye Google Forms.</h2>
+							<p>
+								With Dmod, making staff applications will never be better! We're
+								creating highly-customizable discord staff applications for
+								admins, moderators, and helpers.
+							</p>
+						</div>
+						<img src='/form.svg' />
 					</div>
-					<img src='/form.svg' />
-				</div>
-				<div className='left'>
-					<div>
-						<h2>
-							Made by Discord Users, <br />
-							for Discord Users.
-						</h2>
-						<p>
-							As Moderators and Server Owners, we’re always looking for tools
-							that can others in the community out. We hope Dmod will become a
-							helpful tool.
-						</p>
+					<div className='left'>
+						<div>
+							<h2>
+								Are you a Moderator? <br />
+								We've got you covered.
+							</h2>
+							<p>
+								Create and Customize your own moderator profile, claim your free
+								Vanity URL, fill in past positions, timezone, etc, and you're
+								set!
+							</p>
+						</div>
+						<img src='/mod.svg' />
 					</div>
-					<img src='/users.svg' />
-				</div>
-				<div className='right'>
-					<div>
-						<h2>
-							Are you a Moderator? <br />
-							We've got you covered.
-						</h2>
-						<p>
-							Create and Customize your profile, get your own Vanity URL, fill
-							in past experience and all sorts of info, and inquire for
-							positions.
-						</p>
+					<div className='right'>
+						<div>
+							<h2>
+								Are you a Server Owner? <br />
+								Dmod is for you, too.
+							</h2>
+							<p>
+								Server Owners have been wasting time using random tools for way
+								too long. With Dmod, you can create custom application forms,
+								share them with a Vanity URL, collect responses, write mod
+								reviews, and more. All built to help make managing a community
+								easier!
+							</p>
+						</div>
+						<img src='/owner.svg' />
 					</div>
-					<img src='/mod.svg' />
-				</div>
-				<div className='left'>
-					<div>
-						<h2>
-							Are you a Server Owner? <br />
-							Dmod is for you, too.
-						</h2>
-						<p>
-							Server Owners have been wasting time using random tools for way
-							too long. Here, you can create forms, share them with a Vanity
-							URL, and collect responses, write mod reviews, all made to help
-							Server Owners.
-						</p>
+					<div className='left'>
+						<div>
+							<h2>Built By The Community</h2>
+							<p>
+								We want this to be a team effort; Dmod was built with the help
+								of Discord Partners, Verified Developers, Certified Moderators,
+								and highly experienced community members. We're even open source
+								on GitHub!
+							</p>
+						</div>
+						<img src='/users.svg' />
 					</div>
-					<img src='/owner.svg' />
 				</div>
 			</main>
 			<Footer />

@@ -21,10 +21,10 @@ export default function Footer() {
 							<h3>Twitter</h3>
 						</a>
 					</Link>
-					<Link href='/blog'>
+					<Link href='/news'>
 						<a>
 							<img src='intro.svg' />
-							<h3>Blog</h3>
+							<h3>Newsletter</h3>
 						</a>
 					</Link>
 				</div>

@@ -42,13 +42,13 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li>
-							<Link href='/about'>
+							<Link href='/#about'>
 								<a>About</a>
 							</Link>
 						</li>
 						<li>
-							<Link href='/leaks'>
-								<a>Leaks</a>
+							<Link href='/news'>
+								<a>Newsletter</a>
 							</Link>
 						</li>
 						<li>

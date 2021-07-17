@@ -7,9 +7,9 @@ module.exports = {
 				permanent: true,
 			},
 			{
-			 	source: '/leaks',
-			 	destination: 'https://discord.gg/wZyUW67Ggg',
-			 	permanent: true,
+				source: '/news',
+				destination: 'https://dmod.substack.com',
+				permanent: true,
 			},
 			{
 				source: '/blog',
