@@ -1,6 +1,6 @@
 import MetaTags from 'components/MetaTags';
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 	return {
 		redirect: {
 			permanent: true,
