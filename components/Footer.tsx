@@ -11,26 +11,26 @@ export default function Footer() {
 					</h2>
 					<Link href='/discord'>
 						<a>
-							<img src='discord.svg' />
+							<img src='discord.svg' alt='discord logo' />
 							<h3>Discord</h3>
 						</a>
 					</Link>
 					<Link href='/twitter'>
 						<a>
-							<img src='twitter.svg' />
+							<img src='twitter.svg' alt='twitter logo' />
 							<h3>Twitter</h3>
 						</a>
 					</Link>
 					<Link href='/news'>
 						<a>
-							<img src='intro.svg' />
+							<img src='intro.svg' alt='newsletter' />
 							<h3>Newsletter</h3>
 						</a>
 					</Link>
 				</div>
-				<img src='/launch.svg' />
+				<img src='/launch.svg' alt='person sitting on rocket' />
 			</div>
-			<p>© 2021 Dmod | Not affiliated with Discord</p>
+			<p className='copyright'>© 2021 Dmod | Not affiliated with Discord</p>
 		</footer>
 	);
 }

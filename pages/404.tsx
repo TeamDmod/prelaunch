@@ -14,7 +14,7 @@ export default function _404() {
 						<button>Go Home</button>
 					</Link>
 				</div>
-				<img src='error.svg' />
+				<img src='error.svg' alt='person in vr with app icons' />
 			</div>
 		</main>
 	);

@@ -17,7 +17,7 @@ export default function Navbar() {
 					<img src={'/logo.png'} alt='dmod.gg logo' width={48} height={48} />
 				</Link>
 				{isMobile && (
-					<button onClick={handleClick}>
+					<button onClick={handleClick} name='menu'>
 						<svg
 							width={48}
 							height={48}

@@ -4,7 +4,7 @@ export default function Metatags({
 	title = 'dmod.gg',
 	description = 'Innovating the Moderation Community. Moderator & Server Profiles, Built-in Applications for Owners, Moderator Listings, Resources, and so much more!',
 	image = '/logo-solid.png',
-	color = '#432891',
+	color = '#0B172A',
 }) {
 	return (
 		<Head>

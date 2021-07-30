@@ -1,8 +1,12 @@
 import Footer from 'components/Footer';
+import Head from 'next/head';
 
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<link rel='canonical' href='https://dmod.gg' />
+			</Head>
 			<main>
 				<div className='top'>
 					<h1>Discord Moderation at your fingertips!</h1>
@@ -21,7 +25,7 @@ export default function Home() {
 								admins, moderators, and helpers.
 							</p>
 						</div>
-						<img src='/form.svg' />
+						<img src='/form.svg' alt='clipboard with tick' />
 					</div>
 					<div className='left'>
 						<div>
@@ -35,7 +39,7 @@ export default function Home() {
 								set!
 							</p>
 						</div>
-						<img src='/mod.svg' />
+						<img src='/mod.svg' alt='person sitting at desk' />
 					</div>
 					<div className='right'>
 						<div>
@@ -51,7 +55,7 @@ export default function Home() {
 								easier!
 							</p>
 						</div>
-						<img src='/owner.svg' />
+						<img src='/owner.svg' alt='person with flag' />
 					</div>
 					<div className='left'>
 						<div>
@@ -63,7 +67,7 @@ export default function Home() {
 								on GitHub!
 							</p>
 						</div>
-						<img src='/users.svg' />
+						<img src='/users.svg' alt='person sending emoji on phone' />
 					</div>
 				</div>
 			</main>

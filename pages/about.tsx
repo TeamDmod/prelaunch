@@ -11,7 +11,7 @@ export default function About() {
 						<button>Go Home</button>
 					</Link>
 				</div>
-				<img src='dev.svg' />
+				<img src='dev.svg' alt='' />
 			</div>
 		</main>
 	);
