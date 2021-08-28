@@ -6,7 +6,7 @@ export default function Discord() {
 	const router = useRouter();
 
 	useEffect(() => {
-		router.replace('https://discord.com/invite/moderate');
+		router.replace('https://discord.com/invite/9ytBHrb7qG');
 	}, []);
 
 	return (
