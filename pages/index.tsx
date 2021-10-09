@@ -1,5 +1,6 @@
 import Footer from 'components/Footer';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
 	return (
@@ -11,18 +12,17 @@ export default function Home() {
 				<div className='top'>
 					<h1>Discord Moderation at your fingertips!</h1>
 					<p>
-						Launching in mid-late 2021, dmod will be the platform for Server
-						Owners and Moderators alike.
+						Launching mid-late 2021.
 					</p>
 				</div>
 				<div id='about'>
 					<div className='right'>
 						<div>
-							<h2>Goodbye Google Forms.</h2>
+							<h2>Our Mission.</h2>
 							<p>
-								With Dmod, making staff applications will never be better! We're
-								creating highly-customizable discord staff applications for
-								admins, moderators, and helpers.
+								We believe that the online moderation community is lacking a centralized source for resources, guidance, and mentorship. Inclusivity & transparency take a front seat in everything we do.
+								All of our finances, code and designs are publicly available on their respective platforms.
+								We want everyone to be a part of our building process, and we want to create something impactful.
 							</p>
 						</div>
 						<img src='/form.svg' alt='clipboard with tick' />
@@ -30,13 +30,11 @@ export default function Home() {
 					<div className='left'>
 						<div>
 							<h2>
-								Are you a Moderator? <br />
-								We've got you covered.
+								We're building a platform for Moderators.
 							</h2>
 							<p>
-								Create and Customize your own moderator profile, claim your free
-								Vanity URL, fill in past positions, timezone, etc, and you're
-								set!
+								Dmod will be the home for Moderators online, with profiles, free Vanity URLs, past position & timeline slots, and more.
+								Share your experience with others & discover new friends in your industry. 
 							</p>
 						</div>
 						<img src='/mod.svg' alt='person sitting at desk' />
@@ -63,8 +61,8 @@ export default function Home() {
 							<p>
 								We want this to be a team effort; Dmod was built with the help
 								of Discord Partners, Verified Developers, Certified Moderators,
-								and highly experienced community members. We're even open source
-								on GitHub!
+								and highly experienced community members. We're even 
+								<Link href='https://github.com/dmod-gg'> open source on GitHub! </Link>
 							</p>
 						</div>
 						<img src='/users.svg' alt='person sending emoji on phone' />

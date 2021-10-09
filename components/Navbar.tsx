@@ -1,13 +1,19 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import { useRouter } from 'next/router';
 
 export default function Navbar() {
 	const isMobile = useMediaQuery({ maxWidth: 768 });
 	const [active, setActive] = useState(false);
+	const router = useRouter();
 
 	const handleClick = () => {
 		setActive(!active);
+	};
+
+	const buttonRedirect = () => {
+		router.push(`/discord`);
 	};
 
 	return (
@@ -52,9 +58,9 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li>
-							<Link href='/discord'>
-								<a>Discord</a>
-							</Link>
+							<button onClick={buttonRedirect}>
+								Join Our Discord
+							</button>
 						</li>
 					</ul>
 				)}
