@@ -8,7 +8,7 @@ module.exports = {
 			},
 			{
 				source: '/news',
-				destination: 'https://dmod.substack.com',
+				destination: 'https://www.getrevue.co/profile/dmod',
 				permanent: true,
 			},
 			{
