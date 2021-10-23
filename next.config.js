@@ -3,7 +3,7 @@ module.exports = {
 		return [
 			{
 				source: '/twitter',
-				destination: 'https://twitter.com/dmodgg',
+				destination: 'https://twitter.com/TeamDmod',
 				permanent: true,
 			},
 			{
