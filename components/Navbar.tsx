@@ -58,6 +58,11 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li>
+							<Link href='/dispatch'>
+								<a>Dispatch</a>
+							</Link>
+						</li>
+						<li>
 							<button onClick={buttonRedirect}>
 								Join Our Discord
 							</button>

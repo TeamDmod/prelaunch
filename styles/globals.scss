@@ -9,6 +9,7 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
+	overflow-x: hidden;
 }
 
 * {
@@ -238,7 +239,7 @@ p {
 }
 
 footer {
-	background-color: #0b2041;
+	background: linear-gradient(180deg, #0a1d3a 0%, #0b2041 100%);
 
 	.content {
 		padding: 1em clamp(2rem, 10%, 8rem);
@@ -317,3 +318,60 @@ footer {
 		}
 	}
 }
+
+.converyor-belt {
+	width: 80vw;
+	height: 20vh;
+	background-color: #333;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+
+.converyor-belt:before, .converyor-belt:after {
+	position: absolute;
+	top: 0;
+	width: 10rem;
+	height: 100%;
+	content: "";
+	z-index: 1;
+  }
+
+.converyor-belt:before {
+	left: 0;
+	background: linear-gradient(to right, #333 0%, transparent 100%);
+}
+.converyor-belt:after {
+	right: 0;
+	background: linear-gradient(to left, #333 0%, transparent 100%);
+}
+
+.converyor-belt-items {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	animation: scrolling calc(8 * 4s) linear infinite;
+}
+
+.converyor-belt-items li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* text-align: center; */
+	flex-shrink: 0;
+	width: 80vw;
+	max-height: 100%;
+	font-size: calc(10vh*3/4); 
+	white-space: nowrap;
+	margin: 25px;
+  }
+
+@keyframes scrolling {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-1 * 80vw * 8)); }
+}
+
+
+
+
+
