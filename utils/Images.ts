@@ -11,6 +11,6 @@ import CreaviteLogo from "../public/Server Logos/Creavite.png";
 import HangoutCafeLogo from "../public/Server Logos/HangoutCafe.png";
 import EgirlLogo from "../public/Server Logos/Egirl.png";
 import SquidGameLogo from "../public/Server Logos/SquidGame.png";
-import DispatchLogo from "../public/DispatchLogo.png";
+import DispatchLogo from "../public/dispatchLogo.png";
 
 export { DaniLogo, BreadLogo, PepeLogo, PhotographyLogo, RythmLogo, MarioKartLogo, WorldLogo, StreamlabsLogo, WooshiLogo, CreaviteLogo, HangoutCafeLogo, EgirlLogo, SquidGameLogo, DispatchLogo };
