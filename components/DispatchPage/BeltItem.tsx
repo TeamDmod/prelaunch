@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import React from "react";
 
 export default function BeltItem({ name, icon, invite, memCount }: { name:string, icon?:StaticImageData, invite:string, memCount?:string }) {
     const router = useRouter();
     
-    const toInvite = (e) => {
+    const toInvite = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         e.preventDefault();
         router.push(invite);
     }
@@ -86,7 +87,7 @@ export default function BeltItem({ name, icon, invite, memCount }: { name:string
             `}
             </style>
 
-            <div id="container" onClick={toInvite}>
+            <div id="container" onClick={(e) => toInvite(e)}>
                 <img src={icon?.src} alt={"server logo" + name} />
                 <h2 className={memCount ? 'h2-memcount': 'h2-nomemcount'}>{name}</h2>
                 {memCount && (
