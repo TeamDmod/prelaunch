@@ -1,6 +1,4 @@
 import BeltItem from "components/DispatchPage/BeltItem";
-import ConveyorBelt from "components/DispatchPage/Conveyor";
-import Conveyor from "components/DispatchPage/Conveyor";
 import Faq from "components/DispatchPage/Faq";
 import Footer from "components/Footer"
 import Head from "next/head";
