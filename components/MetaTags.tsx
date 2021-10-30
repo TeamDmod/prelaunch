@@ -15,7 +15,7 @@ export default function Metatags({
 			<meta name='theme-color' content={color} />
 
 			<meta name='twitter:card' content='summary' />
-			<meta name='twitter:site' content='@dmod.gg' />
+			<meta name='twitter:site' content='@TeamDmod' />
 			<meta name='twitter:title' content={title} />
 			<meta name='twitter:description' content={description} />
 			<meta name='twitter:image' content={image} />
