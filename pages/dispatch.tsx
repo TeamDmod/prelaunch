@@ -119,8 +119,8 @@ class DispatchPage extends React.Component {
                     </div>
                     <br />
                     <div className="top" style={{paddingTop: "50px"}}>
-                        <h1>Our Staff Are Experienced</h1>
-                        <p>Below is a list of the communities our staff have moderated. That's a guarantee of our quality and professionalism.</p>
+                        <h1>Our Team</h1>
+                        <p>Below is a list of the communities our staff members have experience working at.</p>
                     </div>
 
                     {/* Conveyor Belts */}
@@ -161,8 +161,8 @@ class DispatchPage extends React.Component {
                     </div>
 
                     <div style={{paddingTop: "65px", paddingBottom: "15px"}}className="top">
-                        <h1>Previous Clients</h1>
-                        <p>Below is a list of the communities that our staff have been dispatched to. These communities vary in needs and sizes, rest assured, our team handled all the requests without any stress.</p>
+                        <h1>Clientele</h1>
+                        <p>Whether you’re a community focused on competitive gaming, a server for your Web3 company, we'll cover your needs with reliability and care.</p>
                     </div>
                     
                     <div className="conveyor-container">
