@@ -4,7 +4,7 @@ import Footer from "components/Footer"
 import Head from "next/head";
 import React, {useState} from "react";
 
-import { DaniLogo, BreadLogo, PepeLogo, PhotographyLogo, RythmLogo, MarioKartLogo, WorldLogo, StreamlabsLogo, WooshiLogo, CreaviteLogo, HangoutCafeLogo, EgirlLogo, SquidGameLogo, DispatchLogo } from "utils/Images";
+import { NZXTLogo, FallGuysLogo, DankMemerLogo, ValorantLogo, RizeLogo, ENSLogo, DaniLogo, PepeLogo, RythmLogo, MarioKartLogo, WorldLogo, StreamlabsLogo, WooshiLogo, CreaviteLogo, HangoutCafeLogo, DispatchLogo } from "utils/Images";
 
 class DispatchPage extends React.Component {
     render(){
@@ -56,28 +56,28 @@ class DispatchPage extends React.Component {
                         display: inline-block;
                         left: -500px;
                         position: absolute;
-                        animation: moveBlock 13s linear 3s infinite;
+                        animation: moveBlock 13s linear 2.5s infinite;
                     }
 
                     .div3 {
                         display: inline-block;
                         left: -500px;
                         position: absolute;
-                        animation: moveBlock 13s linear 6s infinite;
+                        animation: moveBlock 13s linear 5s infinite;
                     }
 
                     .div4 {
                         display: inline-block;
                         left: -500px;
                         position: absolute;
-                        animation: moveBlock 13s linear 9s infinite;
+                        animation: moveBlock 13s linear 7.5s infinite;
                     }
 
                     .div5 {
                         display: inline-block;
                         left: -500px;
                         position: absolute;
-                        animation: moveBlock 13s linear 11s infinite;
+                        animation: moveBlock 13s linear 10.25s infinite;
                     }
 
                     @media only screen and (max-width: 600px) {
@@ -140,6 +140,10 @@ class DispatchPage extends React.Component {
                         <div className="div4">
                             <BeltItem name={"Rythm"} icon={RythmLogo} invite={"https://discord.gg/rythm"} memCount={"386k+"} />
                         </div>
+
+                        <div className="div5">
+                            <BeltItem name={"NZXT"} icon={NZXTLogo} invite={"https://discord.gg/nzxt"} memCount={"113k+"} />
+                        </div>
                     </div>
 
                     <div className="conveyor-container">
@@ -148,7 +152,7 @@ class DispatchPage extends React.Component {
                         </div>
 
                         <div className="div2">
-                            <BeltItem name={"Bread"} icon={BreadLogo} invite={"https://discord.gg/bread"} memCount={"6500+"}/>
+                            <BeltItem name={"VALORANT"} icon={ValorantLogo} invite={"https://discord.gg/valorant"} memCount={"799,999k"}/>
                         </div>
 
                         <div className="div3">
@@ -156,7 +160,11 @@ class DispatchPage extends React.Component {
                         </div>
 
                         <div className="div4">
-                            <BeltItem name={"Photography Lounge"} icon={PhotographyLogo} invite={"https://discord.gg/photography"} memCount={"4300+"}/>
+                            <BeltItem name={"Fall Guys"} icon={FallGuysLogo} invite={"https://discord.gg/fallguys"} memCount={"227k+"}/>
+                        </div>
+
+                        <div className="div5">
+                            <BeltItem name={"Dank Memer"} icon={DankMemerLogo} invite={"https://discord.gg/memers"} memCount={"371k+"}/>
                         </div>
                     </div>
 
@@ -179,7 +187,11 @@ class DispatchPage extends React.Component {
                         </div>
 
                         <div className="div4">
-                            <BeltItem name={"E-Girl Heaven"} icon={EgirlLogo} invite={"https://discord.gg/egirls"} memCount={"90k+"}/>
+                            <BeltItem name={"ENS"} icon={ENSLogo} invite={"https://discord.gg/ens"} memCount={"38k+"}/>
+                        </div>
+
+                        <div className="div5">
+                            <BeltItem name={"Rize"} icon={RizeLogo} invite={"https://discord.gg/gh7rTyEfWm"} memCount={"277+"}/>
                         </div>
                     </div>
                     
