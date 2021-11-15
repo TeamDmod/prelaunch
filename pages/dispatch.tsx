@@ -119,8 +119,35 @@ class DispatchPage extends React.Component {
                     </div>
                     <br />
                     <div className="top" style={{paddingTop: "50px"}}>
-                        <h1>Our Team</h1>
-                        <p>Below is a list of the communities our staff members have experience working at.</p>
+                       <h1>Clientele</h1>
+                        <p>Whether your community is focused on competitive gaming, offering customer support for your Web3 company, or a university student hub, we'll cover your needs with reliability and care.</p>
+                    </div>
+                    
+                    <div className="conveyor-container">
+                        <div className="div1">
+                            <BeltItem name={"Wooshi.World"} icon={WooshiLogo} invite={"https://discord.gg/wooshi"} memCount={"38k+"}/>
+                        </div>
+
+                        <div className="div2">
+                            <BeltItem name={"creavite.co"} icon={CreaviteLogo} invite={"https://discord.gg/creavite"} memCount={"20k+"}/>
+                        </div>
+
+                        <div className="div3">
+                            <BeltItem name={"Hangout Cafe"} icon={HangoutCafeLogo} invite={"https://discord.gg/message"} memCount={"107k+"}/>
+                        </div>
+
+                        <div className="div4">
+                            <BeltItem name={"ENS"} icon={ENSLogo} invite={"https://discord.gg/ens"} memCount={"38k+"}/>
+                        </div>
+
+                        <div className="div5">
+                            <BeltItem name={"Rize"} icon={RizeLogo} invite={"https://discord.gg/gh7rTyEfWm"} memCount={"277+"}/>
+                        </div>
+                    </div>
+
+                    <div style={{paddingTop: "65px", paddingBottom: "15px"}}className="top">
+                                                <h1>Our Team</h1>
+                        <p>Below are some of the communities our staff members have experience working with.</p>
                     </div>
 
                     {/* Conveyor Belts */}
@@ -168,32 +195,6 @@ class DispatchPage extends React.Component {
                         </div>
                     </div>
 
-                    <div style={{paddingTop: "65px", paddingBottom: "15px"}}className="top">
-                        <h1>Clientele</h1>
-                        <p>Whether you’re a community focused on competitive gaming, a server for your Web3 company, we'll cover your needs with reliability and care.</p>
-                    </div>
-                    
-                    <div className="conveyor-container">
-                        <div className="div1">
-                            <BeltItem name={"Wooshi.World"} icon={WooshiLogo} invite={"https://discord.gg/wooshi"} memCount={"38k+"}/>
-                        </div>
-
-                        <div className="div2">
-                            <BeltItem name={"creavite.co"} icon={CreaviteLogo} invite={"https://discord.gg/creavite"} memCount={"20k+"}/>
-                        </div>
-
-                        <div className="div3">
-                            <BeltItem name={"Hangout Cafe"} icon={HangoutCafeLogo} invite={"https://discord.gg/message"} memCount={"107k+"}/>
-                        </div>
-
-                        <div className="div4">
-                            <BeltItem name={"ENS"} icon={ENSLogo} invite={"https://discord.gg/ens"} memCount={"38k+"}/>
-                        </div>
-
-                        <div className="div5">
-                            <BeltItem name={"Rize"} icon={RizeLogo} invite={"https://discord.gg/gh7rTyEfWm"} memCount={"277+"}/>
-                        </div>
-                    </div>
                     
                     <Faq />
                     <div style={{marginBottom: "50px"}}></div>
