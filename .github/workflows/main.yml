@@ -36,7 +36,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd prelaunch
-            git pull
-            npm prune
-            npm install
-            pm2 restart prelaunch
+            sh ./deploy.sh
