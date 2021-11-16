@@ -35,5 +35,10 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
             cd prelaunch
-            sh ./deploy.sh
+            git pull
+            npm prune
+            npm install
+            pm2 restart prelaunch
