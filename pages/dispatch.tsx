@@ -120,7 +120,7 @@ class DispatchPage extends React.Component {
                     <br />
                     <div className="top" style={{paddingTop: "50px"}}>
                        <h1>Clientele</h1>
-                        <p>Whether your community is focused on competitive gaming, offering customer support for your Web3 company, or a university student hub, we'll cover your needs with reliability and care.</p>
+                        <p>Whether your community is focused on competitive gaming, Web3, or a university, we'll cover your needs with reliability and care.</p>
                     </div>
                     
                     <div className="conveyor-container">
