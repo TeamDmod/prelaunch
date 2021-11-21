@@ -43,11 +43,6 @@ export default function Navbar() {
 				{(!isMobile || active) && (
 					<ul>
 						<li>
-							<Link href='/twitter'>
-								<a>Twitter</a>
-							</Link>
-						</li>
-						<li>
 							<Link href='/#about'>
 								<a>About</a>
 							</Link>
@@ -60,6 +55,11 @@ export default function Navbar() {
 						<li>
 							<Link href='/dispatch'>
 								<a>Dispatch</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/twitter'>
+								<a>Twitter</a>
 							</Link>
 						</li>
 						<li>
