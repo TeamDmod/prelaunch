@@ -12,7 +12,7 @@ export default function Home() {
 				<div className='top'>
 					<h1>Discord Moderation at your fingertips!</h1>
 					<p>
-						Launching mid-late 2021.
+						In Closed-Beta.
 					</p>
 				</div>
 				<div id='about'>
