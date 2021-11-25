@@ -14,5 +14,13 @@ import NZXTLogo from "../public/Server Logos/nzxt.png";
 import ValorantLogo from "../public/Server Logos/valorant.png";
 import FallGuysLogo from "../public/Server Logos/fallguys.png";
 import DankMemerLogo from "../public/Server Logos/dankmemercom.png";
+import PanthersLogo from "../public/Server Logos/panthers.png";
+import HangoutLogo from "../public/Server Logos/hangout.png";
+import EGirlLogo from "../public/Server Logos/egirls.png";
+import SquidGameLogo from "../public/Server Logos/squidgame.png";
+import G2Logo from "../public/Server Logos/g2.png";
+import WendysLogo from "../public/Server Logos/wendys.png";
+import BughaLogo from "../public/Server Logos/bugha.png";
+import dslLogo from "../public/Server Logos/dsl.png";
 
-export { FallGuysLogo, DankMemerLogo, ValorantLogo, NZXTLogo, RizeLogo, ENSLogo, DaniLogo, PepeLogo, RythmLogo, MarioKartLogo, WorldLogo, StreamlabsLogo, WooshiLogo, CreaviteLogo, HangoutCafeLogo, DispatchLogo };
+export { dslLogo, BughaLogo, WendysLogo, G2Logo, SquidGameLogo, EGirlLogo, HangoutLogo, PanthersLogo, FallGuysLogo, DankMemerLogo, ValorantLogo, NZXTLogo, RizeLogo, ENSLogo, DaniLogo, PepeLogo, RythmLogo, MarioKartLogo, WorldLogo, StreamlabsLogo, WooshiLogo, CreaviteLogo, HangoutCafeLogo, DispatchLogo };

@@ -1,0 +1,228 @@
+
+.container {
+    // overflow-x: hidden;
+    background: linear-gradient(180deg, #061021 0%, #0b2041 100%);
+	min-height: calc(100vh - 6rem);
+
+	display: grid;
+}
+
+// Text
+.mainHeader {
+    text-align: center;
+}
+
+.mainHeader h1 {
+    font-weight: 500;
+    color: #fff;
+    margin-top: 25px;
+}
+
+// .mainHeader img {
+//     width: 75px;
+
+
+// }
+
+
+.clienteleHeader {
+    color: #fff;
+    font-size: 2.6em;
+    text-align: center;
+    font-weight: 400;
+    
+    position: relative;
+}
+
+.clienteleDescription {
+    font-size: 1.7em !important;
+}
+
+// Conveyors
+.clientele {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 20px;
+
+    overflow: hidden;
+    margin: 0px 18vw 0 18vw;
+}
+
+.clienteleItem {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.494);
+    border-radius: 10px;
+
+    padding: 10px 50px 10px 10px;
+    transition: all 0.3s ease-in-out;
+
+    animation: move 40s infinite ease-in-out;
+    position: relative;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    h2 {
+        font-weight: 500;
+        color: #111;
+        margin: 10px 0 0 10px;
+    }
+
+    h3 {
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+.clienteleItem:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.clienteleItemOpen {
+    display: flex;
+    background-color: rgba(243, 39, 39, 0.494);
+    border-radius: 10px;
+    max-height: 20vh;
+
+    padding: 10px 50px 10px 10px;
+    transition: all 0.3s ease-in-out;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    h2 {
+        font-weight: 500;
+        color: #111;
+        margin: 10px 0 0 10px;
+    }
+
+    h3 {
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+.faq {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.question {
+    background-color: #283042;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.questionlink {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms ease-in-out;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 90%;
+    background-color: #091831;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p {
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.6);
+    padding: 20px;
+}
+
+.question:target .answer {
+    max-height: 200px;
+}
+
+.ourteam {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 20px;
+
+    overflow: hidden;
+    margin: 0px 18vw 0 18vw;
+}
+
+.ourteamItem {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.494);
+    border-radius: 10px;
+
+    padding: 10px 50px 10px 10px;
+    transition: all 0.3s ease-in-out;
+
+    animation: move 40s infinite ease-in-out;
+    position: relative;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    h2 {
+        font-weight: 500;
+        color: #111;
+        margin: 10px 0 0 10px;
+    }
+
+    h3 {
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+.ourteamItem:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+@keyframes move {
+    0% {
+        left: -50%;
+    }
+    50% {
+        left: 60%;
+    }
+    100% {
+        left: -50%;
+    }
+}
+    
