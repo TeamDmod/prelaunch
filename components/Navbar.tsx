@@ -16,6 +16,10 @@ export default function Navbar() {
 		router.push(`/discord`);
 	};
 
+	if (!isMobile && active){
+		setActive(false)
+	}
+
 	return (
 		<header>
 			<nav>
@@ -40,7 +44,37 @@ export default function Navbar() {
 						</svg>
 					</button>
 				)}
-				{(!isMobile || active) && (
+				{!isMobile && (
+					<ul>
+						<li>
+							<Link href='/#about'>
+								<a>About</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/news'>
+								<a>Newsletter</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/dispatch'>
+								<a>Dispatch</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/twitter'>
+								<a>Twitter</a>
+							</Link>
+						</li>
+						<li>
+							<button onClick={buttonRedirect}>
+								Join Our Discord
+							</button>
+						</li>
+					</ul>
+				)}
+
+				{(active) && (
 					<ul>
 						<li>
 							<Link href='/#about'>

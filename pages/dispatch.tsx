@@ -3,6 +3,7 @@ import { useState } from 'react';
 import BeltItem from 'components/DispatchPage/BeltItem';
 
 import { dslLogo, BughaLogo, FallGuysLogo, NZXTLogo, DankMemerLogo, DaniLogo, G2Logo, ENSLogo, RizeLogo, WooshiLogo, CreaviteLogo, PanthersLogo, HangoutLogo, EGirlLogo } from 'utils/Images';
+import Footer from 'components/Footer';
 
 export default function Dispatch() {
 
@@ -228,8 +229,10 @@ export default function Dispatch() {
                     </div>
                 </div>
             </div>
-            <div style={{marginTop: "400px"}}/> 
+            <div style={{marginTop: "100px"}}/> 
         </div>
+
+        <Footer />
         </>
     )
 }
