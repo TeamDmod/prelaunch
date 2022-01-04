@@ -3,7 +3,20 @@ import styles from "styles/dispatch.module.scss";
 import Footer from "components/Footer";
 import { getGuildFromInvite } from "utils/Guild";
 
-export default function Dispatch({ clients, team }) {
+interface Guild {
+  name: string;
+  logo?: string;
+  url: string;
+  members: number;
+}
+
+export default function Dispatch({
+  clients,
+  team,
+}: {
+  clients: Guild[];
+  team: Guild[];
+}) {
   return (
     <>
       <div
