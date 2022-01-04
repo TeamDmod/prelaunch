@@ -1,0 +1,93 @@
+.belt {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+.belt_container {
+  margin: 20px auto auto;
+  position: relative;
+  overflow: hidden;
+  width: clamp(80vw, 10rem, 100vw);
+}
+
+.belt[right] {
+  float: left;
+  animation-name: scrollRight;
+}
+
+.belt[left] {
+  float: right;
+  animation-name: scrollLeft;
+}
+
+@keyframes scrollLeft {
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+@keyframes scrollRight {
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.faq {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.question {
+  background-color: #283042;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.questionlink {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: #283042;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #212838;
+  transition: max-height 650ms ease-in-out;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 90%;
+  background-color: #091831;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+}
+
+.question:target .answer {
+  max-height: 200px;
+}
