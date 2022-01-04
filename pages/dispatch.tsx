@@ -125,12 +125,12 @@ export default function Dispatch({
             <div className={styles.answer}>
               <p>
                 If you're a community owner looking to request a dispatch,
-                please visit our Discord community{" "}
+                please visit our{" "}
                 <a
-                  href="https://discord.gg/moderate"
+                  href="/discord"
                   style={{ color: "lightblue" }}
                 >
-                  https://discord.gg/moderate
+                  Discord community
                 </a>{" "}
                 & open up a ticket in our support channel. We'll get back to you
                 ASAP!
