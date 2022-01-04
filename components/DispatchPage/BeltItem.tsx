@@ -46,6 +46,8 @@ export default function BeltItem({
           font-weight: 500;
           color: #111;
           margin: 10px 0 0 10px;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
 
         .item img {
@@ -55,7 +57,7 @@ export default function BeltItem({
         }
 
         .item:hover {
-          background-color: rgba(255, 255, 255, 0.7);
+          background-color: rgba(255, 255, 255, 0.2);
           cursor: pointer;
         }
       `}</style>

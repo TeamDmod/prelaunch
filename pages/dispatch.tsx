@@ -52,7 +52,7 @@ export default function Dispatch({
         </div>
 
         <div className={styles.belt_container}>
-          <div className={styles.belt} left="">
+          <div className={styles.belt_left}>
             {clients.map((client) => (
               <BeltItem
                 name={client.name}
@@ -93,7 +93,7 @@ export default function Dispatch({
         </div>
 
         <div className={styles.belt_container}>
-          <div className={styles.belt} right="">
+          <div className={styles.belt_right}>
             {team.map((client) => (
               <BeltItem
                 name={client.name}
@@ -126,10 +126,7 @@ export default function Dispatch({
               <p>
                 If you're a community owner looking to request a dispatch,
                 please visit our{" "}
-                <a
-                  href="/discord"
-                  style={{ color: "lightblue" }}
-                >
+                <a href="/discord" style={{ color: "lightblue" }}>
                   Discord community
                 </a>{" "}
                 & open up a ticket in our support channel. We'll get back to you

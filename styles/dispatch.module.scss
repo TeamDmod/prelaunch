@@ -1,7 +1,7 @@
-.belt {
+@mixin belt {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 20s;
+  animation-duration: 30s;
   display: flex;
   gap: 2rem;
   white-space: nowrap;
@@ -14,12 +14,14 @@
   width: clamp(80vw, 10rem, 100vw);
 }
 
-.belt[right] {
+.belt_right {
+  @include belt;
   float: left;
   animation-name: scrollRight;
 }
 
-.belt[left] {
+.belt_left {
+  @include belt;
   float: right;
   animation-name: scrollLeft;
 }
