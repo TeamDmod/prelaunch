@@ -28,7 +28,7 @@ export default function Dispatch({
       >
         <div style={{ textAlign: "center" }}>
           <h1 style={{ fontWeight: 500, color: "#fff", marginTop: "25px" }}>
-            Dispatch Program
+            Dispatch Agency
           </h1>
         </div>
         <div className="top">
